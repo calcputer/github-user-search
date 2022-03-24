@@ -1,0 +1,19 @@
+.search-box{
+    width: 75%;
+    font-size: 2em;
+}
+
+.search-button{
+    width: 20%;
+    font-size: 2em;
+}
+
+.search-container{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#no-results-label{
+    margin-block: .1em;
+    font-size: 1.5em;
+}

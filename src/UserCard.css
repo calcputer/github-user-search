@@ -1,0 +1,12 @@
+.avatar-img{
+    width: 2em;
+    height: 2em;
+    top: .5em;
+    position: relative;
+    padding-right: .5em;
+}
+
+.user-card{
+    margin-block: .1em;
+    font-size: 1.5em;
+}

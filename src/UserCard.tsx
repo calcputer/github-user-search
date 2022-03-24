@@ -23,7 +23,7 @@ const UserCard = (props:UserCardProps) => {
     const followerCount = !!details.followers ? details.followers + " followers - " : "";
     const companyText = !!details.company ? details.company + " - " : "";
     const publicRepoCount = !!details.public_repos ? details.public_repos + " public repos - " : "";
-    const profileLink = <a href={props.data.html_url} target="_blank">{props.data.login}</a>;
+    const profileLink = <a href={props.data.html_url} target="_blank" rel="noreferrer">{props.data.login}</a>;
 
     return (
         <p className="user-card">

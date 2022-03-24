@@ -33,7 +33,6 @@ const UserSearch = () => {
     const userCards = !loading && !error && results.length > 0 ? results?.map((user:any) => 
         <>
             <UserCard data={user} key={user.id}/>
-            <br/>
         </>
     ) : <p id="no-results-label">No users found for query: {query}</p>;
 

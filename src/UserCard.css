@@ -7,6 +7,13 @@
 }
 
 .user-card{
-    margin-block: .1em;
+    padding-bottom: .5em;
+    padding-left: .25em;
+    padding-right: .25em;
     font-size: 1.5em;
+    border: solid lightgray;
+    border-radius: .5em;
+    border-width: .1em;
+    width: fit-content;
+    margin: .1em auto;
 }

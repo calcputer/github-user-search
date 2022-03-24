@@ -12,7 +12,7 @@ const UserCard = (props:UserCardProps) => {
         if(props.data?.url.length > 0){
             fetch(props.data.url)
             .then((result) => result.json())
-            .then((data) => {setDetails(data); console.log(data)}); 
+            .then((data) => setDetails(data)); 
         }
     }, [props]);
     
